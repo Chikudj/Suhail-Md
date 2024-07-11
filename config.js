@@ -67,7 +67,7 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_13_04_07_10_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || " A17_Md", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || " Aztec_Md", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || "/",
   BRANCH  : process.env.BRANCH  || "main",
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "CHIKU-MD",
-  ownername:process.env.OWNER_NAME|| "DJ",
+  botname : process.env.BOT_NAME  || "⫷ 𝘾𝙃𝙄𝙆𝙐 𝘿𝙅 ⫸",
+  ownername:process.env.OWNER_NAME|| "꧁•⊹٭𝚅𝙴𝙽𝙰𝙽𝙲𝙴٭⊹•꧂",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "PARKER"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "ADAM"  ).toUpperCase(),
 
 
 
