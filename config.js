@@ -8,7 +8,6 @@ global.appUrl=process.env.APP_URL || ""                       // put your app ur
 global.email ="chikundemwenyewe@gmail.com"
 global.location="Dodoma,Tanzania."
 
-
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
@@ -64,7 +63,7 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_20_54_07_17_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || "Aztec_Md", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "A17_Md", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
@@ -89,7 +88,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "NARUTO"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "ADAM"  ).toUpperCase(),
 
 
 
